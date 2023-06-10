@@ -6,6 +6,9 @@
 	"scripts": {
 		"run": "node index.js"
 	},
+  "bin": {
+		"checkmyproxies": "./index.js"
+	},
 	"keywords": [],
 	"author": "iQuickDev",
 	"license": "GPL3",

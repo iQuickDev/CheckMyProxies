@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { checkProxy } = require("./network.js")
 const { saveProxies, loadProxies, showResults, showConfig } = require("./io.js")
 const args = require("minimist")(process.argv.slice(2))
